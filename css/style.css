@@ -1,0 +1,328 @@
+/*    ------>    IMPORTING GOOGLE FONTS IN STYLE.CSS     <------     */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+
+/*    ------>   UniversalSelector - styling    <------     */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*    ------>    BODY - STYLING    <------     */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #50658e;
+  background-color: mistyrose;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/*    ------>    CSS STYLING FOR HEADER STARTS HERE     <------     */
+
+/*    ------>    HEADER - STYLING   <------     */
+header {
+  background-color: mistyrose;
+}
+
+
+/*    ------>    nav - STYLING   <------     */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+
+/*    ------>    nav-logo - STYLING   <------     */
+#logo {
+  margin: 30px 35px;
+}
+
+
+/*    ------>    nav-logo-img - STYLING     <------     */
+#logo img {
+  padding-left: 55px;
+  height: 53px;
+  margin: 8px 18px;
+}
+
+
+/*    ------>    ulItems - STYLING     <------     */
+#ulItems {
+  overflow: hidden;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-right: 185px;
+  transition: transform 0.3s ease-in;
+}
+
+
+/*    ------>    ulItems-li's - STYLING     <------     */
+#ulItems li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+
+/*    ------>    ulItems-li-a's - STYLING     <------     */
+#ulItems li a {
+  color: #50658e;
+  display: block;
+  padding: 10px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+/*    ------>    ulItems-li-a:hover - STYLING     <------     */
+#ulItems li a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+/*    ------>     ulItems-li-a.active - STYLING   <------     */
+#ulItems li a.active{
+  color: #2a81ea;
+}
+
+/*    ------>     hamburger - STYLING   <------     */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/*    ------>     hamburger-line - STYLING   <------     */
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px -180px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/*    ------>     sidebar - STYLING   <------     */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100%;
+  width: 250px;
+  background-color: #444;
+  transition: left 0.3s ease-in-out;
+}
+
+.sidebar.show {
+  left: 0;
+}
+
+/*    ------>     sidebar-ul - STYLING   <------     */
+.sidebar ul {
+  margin-top: 110px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+/*    ------>     sidebar-li - STYLING   <------     */
+.sidebar li {
+  margin: 1rem 0;
+}
+
+/*    ------>     sidebar-a - STYLING   <------     */
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.sidebar a:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+}
+
+
+/*    ------>     close-btn - STYLING   <------     */
+.close-btn {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 55px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: right 0.3s ease-in-out;
+}
+
+.close-btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.close-btn.show {
+  right: 0;
+}
+
+
+/*       ----- >  SECTION PART STARTS HERE  < ----- */
+
+/*    ------>    SECTION - STYLING     <------     */
+.section {
+  display: flex;
+  height: 75vh;
+}
+
+
+/*    ------>    LOGO-RIGHT of SECTION-PART - STYLING     <------     */
+.logo-right {
+  display: flex;
+  position: absolute;
+  right: 4%;
+  margin-top: 4px;
+}
+
+
+/*    ------>    IMAGE of LOGO-RIGHT - STYLING     <------     */
+.logo-right img {
+  height: 560px;
+  float: right;
+}
+
+
+
+/*    ------>    CONTENT-BLOCK of SECTION-PART STARTS HERE    <------     */
+
+/*    ------>    CONTENT-BLOCK - STYLING      <------     */
+.content-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+
+/*    ------>    CONTENT-LEFT of CONTENT-BLOCK - STYLING     <------     */
+.content-block .content-left {
+  margin: 30px 200px;
+}
+
+
+/*    ------>    H1 of CONTENT-LEFT - STYLING     <------     */
+.content-left h1 {
+  color: #50658e;
+}
+
+
+/*    ------>    HEADING of CONTENT-LEFT - STYLING     <------     */
+.section .content-left .heading {
+  display: flex;
+  align-items: center;
+  font-size: 6.5rem;
+  line-height: 1;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+  letter-spacing: -0.025em;
+}
+
+
+/*    ------>    HEADING's-SPAN - STYLING     <------     */
+.heading span {
+  font-size: 6.5rem;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  font-family: "Oswald", sans-serif;
+}
+
+
+/*    ------>    h-span of HEADING of CONTENT-BLOCK - STYLING      <------     */
+.content-block .h-span {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*    ------>    TOP of h-span of CONTENT-BLOCk - STYLING     <------     */
+.content-block .h-span .top {
+  font-size: 1.7rem;
+  color: #f86168;
+  letter-spacing: 0.04em;
+  margin-top: 13px;
+}
+
+
+/*    ------>    BOTTOM of h-span of CONTENT-BLOCk - STYLING     <------     */
+.content-block .h-span .bottom {
+  font-size: 3.5rem;
+  margin-top: 6px;
+}
+
+
+/*    ------>    PARAGRAPH of CONTENT-LEFT - STYLING     <------     */
+.content-left p {
+  font-size: 1.24rem;
+  line-height: 1.67;
+  color: #3d4b69;
+  height: 50%;
+  width: 159%;
+  margin-top: 33px;
+}
+
+
+/*    ------>     secetion's-buttom's-li's-a  - STYLING   <------     */
+.section .button li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*    ------>     secetion's-buttom's-btn1  - STYLING   <------     */
+.section .button .btn1 {
+  background-color: #2a81ea;
+  display: flex;
+  margin: 7px 220px;
+  width: 160px;
+  border-radius: 30px;
+  padding: 16px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .button .btn1:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+
+/*    ------>     secetion's-buttom's-btn2  - STYLING   <------     */
+.section .button .btn2 {
+  color: blue;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  margin: -60px 430px;
+  width: 140px;
+  padding: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*    ------>     secetion's-buttom's-btn2-spam  - STYLING   <------     */
+.btn2 span {
+  color: #50658e;
+}

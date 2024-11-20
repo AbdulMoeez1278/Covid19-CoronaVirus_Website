@@ -1,0 +1,218 @@
+/*    ------>    IMPORTING GOOGLE FONTS IN STYLE.CSS     <------     */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+body{
+    width: 100%;
+    background-color: mistyrose;
+}
+
+
+/*    ------>  section1 - styling    <------     */
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+
+/*    ------>  contentLeft - styling    <------     */
+.contentLeft {
+    width: 55%;
+}
+
+
+/*    ------> contentLeft-subtitle - styling    <------     */
+.contentLeft .subtitle {
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-size: 1.125rem;
+    margin-bottom: 0.125rem;
+    letter-spacing: .1em;
+    font-family: "Oswald", sans-serif;
+    margin-top: 100px;
+}
+
+
+/*    ------> contentLeft-title - styling    <------     */
+.contentLeft .title {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-family: "Oswald", sans-serif;
+    color: #50658e;
+}
+
+
+/*    ------> contentLeft-p - styling    <------     */
+.contentLeft p {
+    margin-bottom: 0.75rem;
+    color: #3d4b69;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-top: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+
+/*    ------> contentLeft-p-content - styling    <------     */
+.contentLeft .p-content {
+    font-size: 1.34rem;
+}
+
+
+/*    ------>  section2 - styling    <------     */
+.section2 {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+
+/*    ------>  section2-contentMiddle - styling    <------     */
+.contentMiddle{
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+/*    ------>  section2-contentMiddle-subtitle - styling    <------     */
+.contentMiddle .subtitle {
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-size: 1.125rem;
+    margin-bottom: 0.125rem;
+    letter-spacing: .1em;
+    font-family: "Oswald", sans-serif;
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 145px;
+}
+
+
+/*    ------>  section2-contentMiddle-title - styling    <------     */
+.contentMiddle .title{
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-family: "Oswald",sans-serif;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    width: 70%;
+    margin-left: 75px;
+}
+
+
+/*    ------>  section2-contentMiddle-p - styling    <------     */
+.contentMiddle p{
+    padding-top: 1rem;
+    margin-bottom: 0.75rem;
+    color: #3d4b69;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-top: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+
+/*    ------>  section2-cards - styling    <------     */
+.cards {
+    display: flex;
+    width: 85%;
+    margin: 100px 100px;
+}
+
+
+/*    ------>  section2-cards-card1 - styling    <------     */
+.card1{
+    margin: 20px;
+    border: 4px solid mistyrose;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.card1 img {
+    width: 18rem;
+}
+
+.card1 .card-body {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card1 .card-body .title {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card1 .card-body p {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*    ------>  section2-cards-card2 - styling    <------     */
+.card2{
+    margin: 20px;
+    background-color: #fff;
+    border: 4px solid mistyrose;
+    border-radius: 20px;
+}
+
+.card2 img {
+    width: 18rem;
+}
+
+.card2 .card-body {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card2 .card-body .title {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card2 .card-body p {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*    ------>  section2-cards-card3 - styling    <------     */
+.card3{
+    margin: 20px;
+    background-color: #fff;
+    border: 4px solid mistyrose;
+    border-radius: 20px;
+}
+
+.card3 img {
+    width: 18rem;
+}
+
+.card3 .card-body {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card3 .card-body .title {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card3 .card-body p {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
